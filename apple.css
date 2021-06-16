@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+body {
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgb(0, 234, 255);
+    background-image: url("clouds.png");
+    background-repeat: repeat-x;
+    background-size: 300px 150px;
+}
+
+#apple {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 180px;
+    margin: auto;
+    user-select: none;
+    color: white;
+    margin-top: 15px;
+}
+
+#apple p{
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+}
+
+#txt_size {
+    height: 50px;
+    overflow-y: hidden;
+    padding: 50px 0;
+}
+
+#game_div {
+    text-align: center;
+}
+
+#name {
+    color: white;
+    font-size: 80px;
+    margin-top: 20px;
+    text-align: center;
+    -webkit-text-stroke: 1.5px black;
+    font-weight: bold;
+}
+
+#times {
+    font-size: 30px;
+    font-family: 'Gochi Hand', cursive;
+    color: white;
+    background-color: lightgrey;
+    padding: 8px 10px;
+    border-radius: 8px;
+    -webkit-text-stroke: 1px black;
+}

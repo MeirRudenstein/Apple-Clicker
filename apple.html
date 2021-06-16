@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apple Clicker</title>
+        <link rel="stylesheet" href="apple.css">
+    </head>
+    <body>
+        <br/>
+        <h1 id="name"><span id="f_name">Apple</span> Clicker</h1>
+        <div id="game_div">
+            <div id="apple" onclick="get_money()">
+                <div id="txt_size">
+                    <p>$<span id="money_num"></span></p>
+                </div>
+            </div>
+            <div>
+                <h4>Upgrade Cost: <span id="cost"></span></h4>
+                <button id="times" onclick="add_mult()">Multiplier: x<span id="mv"></span></button>
+            </div>
+                <br/>
+                <br/>
+                <button onclick="reset()">Reset</button>
+            
+        </div>
+
+        <script src="apple.js"></script>
+    </body>
+</html>
